@@ -4,9 +4,10 @@ import (
 	"os"
 	"path/filepath"
 	"time"
-	vnc "github.com/amitbet/vnc2video"
-	"github.com/amitbet/vnc2video/encoders"
-	"github.com/amitbet/vnc2video/logger"
+
+	vnc "github.com/andrewheberle/vnc2video"
+	"github.com/andrewheberle/vnc2video/encoders"
+	"github.com/andrewheberle/vnc2video/logger"
 )
 
 func main() {

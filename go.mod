@@ -1,5 +1,5 @@
 module github.com/andrewheberle/vnc2video
 
-go 1.12
+go 1.19
 
-require github.com/icza/mjpeg v0.0.0-20170217094447-85dfbe473743
+require github.com/icza/mjpeg v0.0.0-20220812133530-f79265a232f2

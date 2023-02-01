@@ -5,7 +5,8 @@ import (
 	"image"
 	"image/color"
 	"image/draw"
-	"github.com/amitbet/vnc2video/logger"
+
+	"github.com/andrewheberle/vnc2video/logger"
 )
 
 type CursorPseudoEncoding struct {
