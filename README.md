@@ -2,7 +2,7 @@
 
 ## What is this fork?
 
-This fork of a fork has some very small changes to resole an issue where transpareny was being set incorrectly for RGBA pixels which cause issues when encoding to a format that supported this, such as making a screenshot to PNG.
+This fork of a fork has some very small changes to resovle an issue where transpareny was being set incorrectly for RGBA pixels which caused issues when encoding to a format that supported this, such as making a screenshot to PNG.
 
 In addition `go.mod` has been updated so this module can be used in place of the original `github.com/amitbet/vnc2video` version.
 
