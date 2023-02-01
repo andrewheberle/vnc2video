@@ -1,4 +1,11 @@
 # Vnc2Video [![CircleCI](https://circleci.com/gh/amitbet/vnc2video.svg?style=shield)](https://circleci.com/gh/amitbet/vnc2video) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CircleCI-Public/circleci-demo-go/master/LICENSE.md)
+
+## What is this fork?
+
+This fork of a fork has some very small changes to resole an issue where transpareny was being set incorrectly for RGBA pixels which cause issues when encoding to a format that supported this, such as making a screenshot to PNG.
+
+In addition `go.mod` has been updated so this module can be used in place of the original `github.com/amitbet/vnc2video` version.
+
 ## A **real wold** implementation of vnc client for go 
 After searching the web for an vnc client in golang which is not a toy & support more than handshake + RAW encoding, I came up blank, so, I set out to write one myself.
 
