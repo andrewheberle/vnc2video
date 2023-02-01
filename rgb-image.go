@@ -21,7 +21,7 @@ type RGBColor struct {
 }
 
 func (c RGBColor) RGBA() (r, g, b, a uint32) {
-	return uint32(c.R), uint32(c.G), uint32(c.B), 0xffff
+	return uint32(c.R), uint32(c.G), uint32(c.B), 0xff
 }
 
 func (p *RGBImage) ColorModel() color.Model { return nil }
